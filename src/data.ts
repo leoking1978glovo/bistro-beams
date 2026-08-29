@@ -16,7 +16,7 @@ export const CATEGORIAS = [
   "Todos",
   "Fine Dining",
   "Casual",
-  "Mexicano",
+  "Colombiano",
   "Café",
   "Bar",
   "Food Truck",
@@ -26,7 +26,7 @@ export const RESTAURANTES: Restaurant[] = [
   {
     id: "taqueria-el-sol",
     nombre: "Taquería El Sol",
-    categoria: "Mexicano",
+    categoria: "Colombiano",
     tecnologia: "Next.js + Tailwind",
     url: "www.taqueriaelsol.mx",
     ubicacion: "CDMX, México",

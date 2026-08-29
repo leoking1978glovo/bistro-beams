@@ -11,13 +11,13 @@ import { ProjectModal } from "@/components/ProjectModal";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Mi Galería de Restaurantes | Diseño Web Gastronómico" },
+      { title: "Lab del Chef | Diseño Web Gastronómico" },
       {
         name: "description",
         content:
           "Galería de proyectos de páginas web para restaurantes: fine dining, cafés, food trucks y más, con React, Next.js y Astro.",
       },
-      { property: "og:title", content: "Mi Galería de Restaurantes" },
+      { property: "og:title", content: "Lab del Chef" },
       {
         property: "og:description",
         content:
@@ -49,7 +49,7 @@ function Galeria() {
       <main className="mx-auto max-w-6xl px-5 py-16">
         <header className="text-center">
           <h1 className="text-[2.5rem] font-extrabold leading-tight tracking-[-1.5px] text-ink">
-            Mi Galería de Restaurantes
+            Lab del Chef
           </h1>
           <p className="mx-auto mt-3 max-w-xl text-base text-ink-muted">
             Una selección de páginas web que he diseñado y desarrollado para
@@ -89,7 +89,7 @@ function Galeria() {
 
       <footer className="border-t border-border">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-5 py-8 text-[0.8rem] text-ink-subtle sm:flex-row">
-          <p>© {new Date().getFullYear()} Mi Galería de Restaurantes</p>
+          <p>© {new Date().getFullYear()} Lab del Chef</p>
           <a
             href="https://tu-portfolio.com"
             target="_blank"
