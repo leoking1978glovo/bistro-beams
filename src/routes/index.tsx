@@ -52,11 +52,10 @@ function Galeria() {
             Lab del Chef
           </h1>
           <p className="mx-auto mt-4 max-w-2xl font-script text-xl leading-relaxed text-ink-muted italic sm:text-2xl">
-            Laboratorio donde cada proyecto web toma forma como una receta
-            única: mezclamos código limpio, diseño que abre el apetito visual y
-            funcionalidad pensada para quienes viven del sabor, para servir en un
-            solo plato las mejores webs de restaurantes que hemos cocinado desde
-            cero.
+            Aquí no exponemos proyectos, los servimos en plato caliente. Cada
+            web es una receta digital cocinada a punto para abrirte el apetito,
+            diseño que se saborea, funcionalidad que llena y una experiencia que
+            deja con hambre de más.
           </p>
         </header>
 
