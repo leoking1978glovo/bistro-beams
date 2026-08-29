@@ -7,6 +7,7 @@ import { FilterBar } from "@/components/FilterBar";
 import { SearchBar } from "@/components/SearchBar";
 import { RestaurantCard } from "@/components/RestaurantCard";
 import { ProjectModal } from "@/components/ProjectModal";
+import ChatBubble from "@/components/ChatBubble";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -107,6 +108,5 @@ function Galeria() {
         restaurante={seleccionado}
         onClose={() => setSeleccionado(null)}
       />
-    </div>
-  );
-}
+
+      
