@@ -51,9 +51,12 @@ function Galeria() {
           <h1 className="text-[2.5rem] font-extrabold leading-tight tracking-[-1.5px] text-ink">
             Lab del Chef
           </h1>
-          <p className="mx-auto mt-3 max-w-xl text-base text-ink-muted">
-            Una selección de páginas web que he diseñado y desarrollado para
-            restaurantes, cafés y bares alrededor del mundo.
+          <p className="mx-auto mt-4 max-w-2xl font-script text-xl leading-relaxed text-ink-muted italic sm:text-2xl">
+            Laboratorio donde cada proyecto web toma forma como una receta
+            única: mezclamos código limpio, diseño que abre el apetito visual y
+            funcionalidad pensada para quienes viven del sabor, para servir en un
+            solo plato las mejores webs de restaurantes que hemos cocinado desde
+            cero.
           </p>
         </header>
 
