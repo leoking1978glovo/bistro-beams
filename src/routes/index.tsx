@@ -109,4 +109,12 @@ function Galeria() {
         onClose={() => setSeleccionado(null)}
       />
 
-      
+      <ChatBubble
+        agentUrl="https://www.google.com"
+        title="Agente Virtual"
+        bubbleText="¿Necesitas ayuda?"
+        position="bottom-right"
+      />
+    </div>
+  );
+}
